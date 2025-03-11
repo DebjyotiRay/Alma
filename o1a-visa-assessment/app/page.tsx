@@ -17,6 +17,7 @@ export default function Home() {
           </div>
           <div className="space-y-6">
             <ApiStatus />
+            <CriteriaInfo />
           </div>
         </div>
       </div>

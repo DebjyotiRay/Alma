@@ -34,6 +34,7 @@ export function UploadForm() {
 
       setFile(selectedFile)
       setError(null)
+      setResult(null) // Clear previous results when a new file is selected
     }
   }
 
@@ -47,6 +48,7 @@ export function UploadForm() {
 
     setIsLoading(true)
     setError(null)
+    setResult(null)
 
     try {
       const formData = new FormData()
