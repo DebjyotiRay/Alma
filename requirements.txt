@@ -15,5 +15,5 @@ huggingface_hub>=0.19.3
 requests==2.26.0
 numpy==1.26.4
 
-scikit-learn==1.0
+
 firecrawl_py>=0.0.1
